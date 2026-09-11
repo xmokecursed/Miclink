@@ -55,7 +55,7 @@ This creates the actual virtual microphone your other apps (Discord, Zoom, OBS, 
 
 | | | |
 |---|---|---|
-| ![Phone screenshot 1](/Phone_Screenshot1.png) | ![Phone screenshot 2](/Phone_Screenshot1.png) | ![Phone screenshot 3](/Phone_Screenshot3.png) |
+| ![Phone screenshot 1](/Phone_Screenshot1.png) | ![Phone screenshot 2](/Phone_Screenshot2.png) | ![Phone screenshot 3](/Phone_Screenshot3.png) |
 
 ## Using it
 
