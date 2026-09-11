@@ -37,8 +37,8 @@ This creates the actual virtual microphone your other apps (Discord, Zoom, OBS, 
 
 ## Installing MicLink
 
-1. Grab the latest **`MicLink.exe`** and **`app-release.apk`** from the **[Releases](../../releases)** page.
-2. **Phone:** transfer `app-release.apk` to your phone (email, USB, cloud drive, whatever's easiest) and tap it to install. You'll need to allow "install unknown apps" for whichever app you used to open it — Android will prompt you for this automatically the first time.
+1. Grab the latest **`micLink.exe`** and **`miclink.apk`** from the **[Releases](../../releases)** page.
+2. **Phone:** transfer `miclink.apk` to your phone (email, USB, cloud drive, whatever's easiest) and tap it to install. You'll need to allow "install unknown apps" for whichever app you used to open it — Android will prompt you for this automatically the first time.
 3. **PC:** just double-click `MicLink.exe`. No installer needed it's just a single portable file. (Want it searchable in your Start Menu like a normal app? See the shortcut steps at the bottom of this README.)
 
 ---
