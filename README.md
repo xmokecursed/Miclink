@@ -43,6 +43,20 @@ This creates the actual virtual microphone your other apps (Discord, Zoom, OBS, 
 
 ---
 
+## Screenshots
+
+### PC App
+
+| | | |
+|---|---|---|
+| ![PC screenshot 1](PC_Screenshot1.png) | ![PC screenshot 2](PC_Screenshot2.png) | ![PC screenshot 3](/PC_Screenshot3.png) |
+
+### Phone App
+
+| | | |
+|---|---|---|
+| ![Phone screenshot 1](/Phone_Screenshot1.png) | ![Phone screenshot 2](/Phone_Screenshot1.png) | ![Phone screenshot 3](/Phone_Screenshot3.png) |
+
 ## Using it
 
 1. Plug your phone into your PC.
