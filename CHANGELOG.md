@@ -2,6 +2,45 @@
 
 All notable changes to MicLink are documented here.
 
+## [1.1.0] — 2026-10-19
+
+### Added
+- **Voice enhancement (PC app).** A new processing stage for clearer, crisper
+  sound: removes low rumble, reduces boxy low-mid build-up, lifts the speech
+  presence range, and adds a little high-frequency detail. Choose **Off**,
+  **Clear**, or **Clear + quiet-voice boost** in Settings.
+- **Automatic volume for quiet voices.** A leveler measures loudness
+  continuously and raises soft voices toward a comfortable level (up to
+  +24 dB in boost mode), while gently turning loud voices down. It stops
+  boosting in very quiet moments so room noise isn't pulled up, and a soft
+  limiter prevents clipping.
+- **Auto volume on the phone.** Optional Android Automatic Gain Control
+  (Settings → Auto volume).
+- **"Microphone disconnected" alerts** on both devices: a system tray
+  notification on the PC and a high-priority heads-up notification on the
+  phone.
+- **Auto-close after 5 minutes with no phone connected** (PC app and phone
+  streaming service), with a 1-minute warning and a visible countdown on the
+  PC. Can be turned off on the PC.
+- The PC app now **re-establishes the USB connection automatically** when
+  you unplug and replug the cable while streaming.
+
+### Changed
+- **New gray-and-white design** on both the phone and PC apps (light and dark
+  modes). The phone app no longer takes its colors from your wallpaper, so it
+  stays gray and white.
+- Phone app: status card with an icon, clearer Start/Stop button, and a
+  separate level card. Settings now explain what each option does.
+- PC app: cards, a gain readout, and a window that resizes to fit its content.
+- Error messages on the PC no longer vanish after two seconds.
+
+### Fixed
+- **Possible crackle or channel swap from the network stream.** TCP can split
+  the audio mid-sample. The PC app now keeps the stream aligned to whole
+  samples instead of assuming every network chunk is.
+
+---
+
 ## [1.0.0] — 2026-09-11
 
 First public release.
@@ -63,4 +102,5 @@ For transparency, here's what led up to the 1.0.0 release:
 
 ---
 
+[1.1.0]: ../../releases/tag/v1.1.0
 [1.0.0]: ../../releases/tag/v1.0.0
